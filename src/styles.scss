@@ -4,7 +4,7 @@
   font-family: "Frank Ruhl Libre", serif;
 }
 
-$primary-color: #4251a2;
+$primary-color: #ff5544;
 
 a {
   color: black;
@@ -22,21 +22,27 @@ a {
 }
 
 .search-result-item {
-  margin-top: 20px;
+  margin-top: 10px;
 
   .title-wrapper {
     padding: 30px;
     border-bottom: 1px solid black; 
 
     .index-display {
-      font-size: 110px; 
+      font-size: 100px; 
       line-height: 1.1;
     }
 
     h2 {
-      font-size: 40px; 
-      line-height: 65px;
+      font-size: 36px; 
+      line-height: 60px;
       font-weight: bold;
+    }
+
+    p.desc {
+      font-size: 26px; 
+      line-height: 40px; 
+      margin-top: 20px; 
     }
   }
 
@@ -44,6 +50,16 @@ a {
   .url {
     line-height: 1;
     border-bottom: 1px solid black;
-    padding: 10px 30px; 
+    padding: 14px 30px; 
+    display: flex; 
+    align-items: center;
+
+    i.material-icons {
+      color: $primary-color;
+      font-size: 20px; 
+      line-height: 20x; 
+      display: inline-block; 
+      margin-right: 15px; 
+    }
   }
 }

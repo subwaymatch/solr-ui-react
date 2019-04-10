@@ -72,14 +72,14 @@ class SearchResultItem extends Component {
             </div>
           </div>
 
-          <p className="id">
-            <i class="material-icons">fingerprint</i>
+          <div className="id">
+            <i className="material-icons">fingerprint</i>
             <span>{id}</span>
-          </p>
-          <p className="url">
-            <i class="material-icons">link</i>
+          </div>
+          <div className="url">
+            <i className="material-icons">link</i>
             <span>{url}</span>
-          </p>
+          </div>
         </a>
       </div>
     );
