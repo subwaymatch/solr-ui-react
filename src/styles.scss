@@ -1,0 +1,49 @@
+.App {
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+$primary-color: #4251a2;
+
+a {
+  color: black;
+  text-decoration: none;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.box-wrapper {
+  width: 1200px;
+  border: 1px solid black; 
+  margin: 50px auto;
+}
+
+.search-result-item {
+  margin-top: 20px;
+
+  .title-wrapper {
+    padding: 30px;
+    border-bottom: 1px solid black; 
+
+    .index-display {
+      font-size: 110px; 
+      line-height: 1.1;
+    }
+
+    h2 {
+      font-size: 40px; 
+      line-height: 65px;
+      font-weight: bold;
+    }
+  }
+
+  .id,
+  .url {
+    line-height: 1;
+    border-bottom: 1px solid black;
+    padding: 10px 30px; 
+  }
+}
