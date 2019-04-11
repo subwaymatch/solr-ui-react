@@ -26,16 +26,9 @@ class App extends Component {
 
   handleSearchFormSubmit(e) {
     e.preventDefault();
-
-    console.log("search form submit, query=");
-    console.log(e);
   }
 
   handleSearchAlgorithmChange(newAlgorithm) {
-    console.log(
-      "handleSearchAlgorithmChange(newAlgorithm=" + newAlgorithm + ")"
-    );
-
     this.setState({
       searchAlgorithm: newAlgorithm
     });
@@ -60,9 +53,6 @@ class App extends Component {
 
 class SearchControls extends Component {
   render() {
-    console.log("SearchControls this.props=");
-    console.log(this.props);
-
     return (
       <div className="search-controls">
         <div className="row">
