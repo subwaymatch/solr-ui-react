@@ -1,7 +1,7 @@
 # solr-ui-react
 The front-end portion for ~~a web app to compare search result performances between default Lucene algorithm and PageRank algorithm~~ just another web app.  
 
-- [See Demo](https://5ywzo8vy24.codesandbox.io/)
+- [See Demo](https://0xz62polrv.codesandbox.io/)
 - [See CodeSandbox](https://codesandbox.io/s/github/subwaymatch/solr-ui-react)
 
 ## Screenshot
